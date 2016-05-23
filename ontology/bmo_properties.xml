@@ -1,0 +1,3577 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<sparql xmlns='http://www.w3.org/2005/sparql-results#'>
+	<head>
+		<variable name='s'/>
+		<variable name='p'/>
+	</head>
+	<results>
+		<result>
+			<binding name='s'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://www.w3.org/2000/01/rdf-schema#subPropertyOf</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://www.w3.org/2000/01/rdf-schema#subClassOf</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://www.w3.org/2000/01/rdf-schema#domain</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://www.w3.org/2000/01/rdf-schema#range</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://www.w3.org/2002/07/owl#sameAs</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://www.w3.org/2002/07/owl#equivalentProperty</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://www.w3.org/2002/07/owl#equivalentClass</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://www.researchspace.org/ontology/FR12_found_at</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://www.researchspace.org/ontology/FR92i_created_by</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://erlangen-crm.org/current/P45_consists_of</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://erlangen-crm.org/current/P51_has_former_or_current_owner</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://erlangen-crm.org/current/P62_depicts</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://erlangen-crm.org/current/P28_custody_surrendered_by</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://erlangen-crm.org/current/P46_is_composed_of</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://www.researchspace.org/ontology/FR12_found_by</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://www.researchspace.org/ontology/FR15_influenced_by</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://www.researchspace.org/ontology/FRX2_has_type</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://www.researchspace.org/ontology/FRT107i_member_of</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://www.researchspace.org/ontology/FR67_about_actor</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://www.researchspace.org/ontology/FR138i_representation</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://www.researchspace.org/ontology/FRX67_about</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://erlangen-crm.org/current/P12_occurred_in_the_presence_of</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://erlangen-crm.org/current/P9_consists_of</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://www.researchspace.org/ontology/FRX92i_created</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://www.w3.org/2000/01/rdf-schema#label</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://erlangen-crm.org/current/P10_falls_within</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://erlangen-crm.org/current/P2_has_type</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://erlangen-crm.org/current/P22_transferred_title_to</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://erlangen-crm.org/current/P130i_features_are_also_found_on</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://www.researchspace.org/ontology/FR12X</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://www.researchspace.org/ontology/FR12_has_met</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://www.researchspace.org/ontology/FR_main_representation</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://www.researchspace.org/ontology/FRX24i_30i</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://collection.britishmuseum.org/id/ontology/PX_has_main_representation</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://www.researchspace.org/ontology/FRT_46_106_148_128</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://www.researchspace.org/ontology/FR1_identified_by</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://erlangen-crm.org/current/P12i_was_present_at</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://erlangen-crm.org/current/P52_has_current_owner</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://erlangen-crm.org/current/P14_carried_out_by</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://www.researchspace.org/ontology/FRT_46_106_148</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://www.w3.org/2002/07/owl#inverseOf</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://www.researchspace.org/ontology/FR45_is_made_of</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://www.researchspace.org/ontology/FR55_located_in</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://erlangen-crm.org/current/P31i_was_modified_by</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://www.researchspace.org/ontology/FR_dataset</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://erlangen-crm.org/current/P138i_has_representation</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://erlangen-crm.org/current/P128_carries</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://www.researchspace.org/ontology/FRX24i_25i_30i</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://www.researchspace.org/ontology/FRT9_10</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://erlangen-crm.org/current/P70i_is_documented_in</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://erlangen-crm.org/current/P50_has_current_keeper</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://www.researchspace.org/ontology/FR32_used_technique</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://www.researchspace.org/ontology/FR67_about_period</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://www.researchspace.org/ontology/FR7_from_place</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://erlangen-crm.org/current/P107i_is_current_or_former_member_of</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://erlangen-crm.org/current/P148_has_component</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://www.researchspace.org/ontology/FR2_has_type</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://erlangen-crm.org/current/P30i_custody_transferred_through</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://erlangen-crm.org/current/P94i_was_created_by</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://erlangen-crm.org/current/P23_transferred_title_from</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://erlangen-crm.org/current/P15_was_influenced_by</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://erlangen-crm.org/current/P130_shows_features_of</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://erlangen-crm.org/current/P32_used_general_technique</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://www.researchspace.org/ontology/FR51_former_or_current_owner_keeper</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://erlangen-crm.org/current/P53_has_former_or_current_location</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://erlangen-crm.org/current/P7_took_place_at</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://erlangen-crm.org/current/P3_has_note</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://erlangen-crm.org/current/P1_is_identified_by</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://erlangen-crm.org/current/P55_has_current_location</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://erlangen-crm.org/current/P29_custody_received_by</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://www.researchspace.org/ontology/FR12_was_present_at</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://www.researchspace.org/ontology/FR52_current_owner_keeper</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://www.researchspace.org/ontology/FR67_about_place</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://www.researchspace.org/ontology/FR92i_created_in</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://erlangen-crm.org/current/P67_refers_to</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://erlangen-crm.org/current/P24i_changed_ownership_through</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://www.researchspace.org/ontology/FRT_46_106_148_128_130</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://erlangen-crm.org/current/P49_has_former_or_current_keeper</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#subject</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#object</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#first</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#rest</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#value</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://www.w3.org/2000/01/rdf-schema#comment</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://www.w3.org/2000/01/rdf-schema#isDefinedBy</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://www.w3.org/2000/01/rdf-schema#seeAlso</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#_1</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://erlangen-crm.org/current/P9i_forms_part_of</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://erlangen-crm.org/current/P46i_forms_part_of</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://collection.britishmuseum.org/id/ontology/PX_commemorates</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://collection.britishmuseum.org/id/ontology/PX_gender</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://collection.britishmuseum.org/id/ontology/PX_inscription_script</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://collection.britishmuseum.org/id/ontology/PX_inscription_subject</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://collection.britishmuseum.org/id/ontology/PX_inscription_type</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://collection.britishmuseum.org/id/ontology/PX_likelihood</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://collection.britishmuseum.org/id/ontology/PX_nationality</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://collection.britishmuseum.org/id/ontology/PX_object_type</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://collection.britishmuseum.org/id/ontology/PX_profession</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://collection.britishmuseum.org/id/ontology/PX_property</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://collection.britishmuseum.org/id/ontology/PX_pupil_of</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://collection.britishmuseum.org/id/ontology/PX_type_series</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://collection.britishmuseum.org/id/ontology/PX_ware</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://collection.britishmuseum.org/id/ontology/PX_condition</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://collection.britishmuseum.org/id/ontology/PX_curatorial_comment</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://collection.britishmuseum.org/id/ontology/PX_display_wrap</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://collection.britishmuseum.org/id/ontology/PX_exhibition_history</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://collection.britishmuseum.org/id/ontology/PX_has_transliteration</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://collection.britishmuseum.org/id/ontology/PX_inscription_position</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://collection.britishmuseum.org/id/ontology/PX_max_value</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://erlangen-crm.org/current/P90_has_value</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://collection.britishmuseum.org/id/ontology/PX_min_value</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://collection.britishmuseum.org/id/ontology/PX_object_exhibition_label</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://collection.britishmuseum.org/id/ontology/PX_physical_description</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://www.w3.org/2002/07/owl#versionInfo</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://erlangen-crm.org/current/P102_has_title</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://erlangen-crm.org/current/P102i_is_title_of</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://erlangen-crm.org/current/P1i_identifies</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://erlangen-crm.org/current/P105_right_held_by</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://erlangen-crm.org/current/P105i_has_right_on</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://erlangen-crm.org/current/P107_has_current_or_former_member</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://erlangen-crm.org/current/P108_has_produced</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://erlangen-crm.org/current/P31_has_modified</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://erlangen-crm.org/current/P92_brought_into_existence</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://erlangen-crm.org/current/P108i_was_produced_by</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://erlangen-crm.org/current/P92i_was_brought_into_existence_by</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://erlangen-crm.org/current/P49i_is_former_or_current_keeper_of</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://erlangen-crm.org/current/P10i_contains</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://erlangen-crm.org/current/P11_had_participant</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://erlangen-crm.org/current/P11i_participated_in</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://erlangen-crm.org/current/P125_used_object_of_type</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://erlangen-crm.org/current/P125i_was_type_of_object_used_in</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://erlangen-crm.org/current/P128i_is_carried_by</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://erlangen-crm.org/current/P129_is_about</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://erlangen-crm.org/current/P129i_is_subject_of</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://erlangen-crm.org/current/P67i_is_referred_to_by</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://erlangen-crm.org/current/P131_is_identified_by</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://erlangen-crm.org/current/P131i_identifies</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://erlangen-crm.org/current/P15i_influenced</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://erlangen-crm.org/current/P94_has_created</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://erlangen-crm.org/current/P2i_is_type_of</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://erlangen-crm.org/current/P138_represents</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://erlangen-crm.org/current/P140_assigned_attribute_to</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://erlangen-crm.org/current/P140i_was_attributed_by</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://erlangen-crm.org/current/P141_assigned</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://erlangen-crm.org/current/P141i_was_assigned_by</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://erlangen-crm.org/current/P148i_is_component_of</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://erlangen-crm.org/current/P14i_performed</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://erlangen-crm.org/current/P17_was_motivated_by</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://erlangen-crm.org/current/P17i_motivated</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://erlangen-crm.org/current/P19_was_intended_use_of</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://erlangen-crm.org/current/P19i_was_made_for</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://erlangen-crm.org/current/P22i_acquired_title_through</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://erlangen-crm.org/current/P23i_surrendered_title_through</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://erlangen-crm.org/current/P24_transferred_title_of</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://erlangen-crm.org/current/P7i_witnessed</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://erlangen-crm.org/current/P28i_surrendered_custody_through</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://erlangen-crm.org/current/P29i_received_custody_through</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://erlangen-crm.org/current/P30_transferred_custody_of</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://erlangen-crm.org/current/P32i_was_technique_of</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://erlangen-crm.org/current/P37_assigned</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://erlangen-crm.org/current/P37i_was_assigned_by</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://erlangen-crm.org/current/P38_deassigned</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://erlangen-crm.org/current/P38i_was_deassigned_by</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://erlangen-crm.org/current/P43_has_dimension</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://erlangen-crm.org/current/P43i_is_dimension_of</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://erlangen-crm.org/current/P45i_is_incorporated_in</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://erlangen-crm.org/current/P48_has_preferred_identifier</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://erlangen-crm.org/current/P48i_is_preferred_identifier_of</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://erlangen-crm.org/current/P4_has_time-span</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://erlangen-crm.org/current/P4i_is_time-span_of</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://erlangen-crm.org/current/P50i_is_current_keeper_of</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://erlangen-crm.org/current/P51i_is_former_or_current_owner_of</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://erlangen-crm.org/current/P52i_is_current_owner_of</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://erlangen-crm.org/current/P53i_is_former_or_current_location_of</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://erlangen-crm.org/current/P55i_currently_holds</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://erlangen-crm.org/current/P56_bears_feature</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://erlangen-crm.org/current/P56i_is_found_on</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://erlangen-crm.org/current/P62i_is_depicted_by</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://erlangen-crm.org/current/P65_shows_visual_item</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://erlangen-crm.org/current/P65i_is_shown_by</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://erlangen-crm.org/current/P70_documents</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://erlangen-crm.org/current/P72_has_language</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://erlangen-crm.org/current/P72i_is_language_of</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://erlangen-crm.org/current/P73_has_translation</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://erlangen-crm.org/current/P73i_is_translation_of</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://erlangen-crm.org/current/P74_has_current_or_former_residence</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://erlangen-crm.org/current/P74i_is_current_or_former_residence_of</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://erlangen-crm.org/current/P88_consists_of</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://erlangen-crm.org/current/P88i_forms_part_of</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://erlangen-crm.org/current/P91_has_unit</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://erlangen-crm.org/current/P91i_is_unit_of</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://erlangen-crm.org/current/P98_brought_into_life</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://erlangen-crm.org/current/P98i_was_born</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://erlangen-crm.org/current/P81_ongoing_throughout</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://erlangen-crm.org/current/P82_at_some_time_within</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://erlangen-crm.org/current/P81a_end_of_the_begin</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://erlangen-crm.org/current/P81b_begin_of_the_end</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://erlangen-crm.org/current/P82a_begin_of_the_begin</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://erlangen-crm.org/current/P82b_end_of_the_end</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://purl.org/dc/elements/1.1/contributor</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://purl.org/dc/elements/1.1/creator</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://purl.org/dc/elements/1.1/rights</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://purl.org/dc/elements/1.1/subject</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://purl.org/dc/elements/1.1/title</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://voag.linkedmodel.org/schema/voag#hasCatalogEntry</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://voag.linkedmodel.org/schema/voag#hasLicenseType</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://voag.linkedmodel.org/schema/voag#withAttributionTo</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://www.linkedmodel.org/schema/vaem#acronym</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://www.linkedmodel.org/schema/vaem#dateCreated</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://www.linkedmodel.org/schema/vaem#description</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://www.linkedmodel.org/schema/vaem#hasAspectScope</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://www.linkedmodel.org/schema/vaem#hasDisciplineScope</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://www.linkedmodel.org/schema/vaem#hasDomainScope</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://www.linkedmodel.org/schema/vaem#hasRole</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://www.linkedmodel.org/schema/vaem#intent</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://www.linkedmodel.org/schema/vaem#lastUpdated</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://www.linkedmodel.org/schema/vaem#namespace</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://www.linkedmodel.org/schema/vaem#namespacePrefix</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://www.linkedmodel.org/schema/vaem#revisionNumber</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://www.linkedmodel.org/schema/vaem#specificity</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://www.linkedmodel.org/schema/vaem#usesNonImportedResource</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://purl.org/dc/elements/1.1/description</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://www.w3.org/2004/02/skos/core#closeMatch</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://www.w3.org/2004/02/skos/core#exactMatch</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://www.w3.org/2002/07/owl#imports</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://www.w3.org/2002/07/owl#versionIRI</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://www.w3.org/2002/07/owl#minCardinality</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://www.w3.org/2002/07/owl#onProperty</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://qudt.org/schema/qudt#referenceQuantity</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://www.w3.org/2002/07/owl#allValuesFrom</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://qudt.org/schema/qudt#dimensionVector</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://www.w3.org/2002/07/owl#cardinality</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://qudt.org/schema/qudt#vectorMagnitude</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://qudt.org/schema/qudt#basisElement</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://qudt.org/schema/qudt#referenceThing</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://www.linkedmodel.org/schema/vaem#hasCatalogEntry</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://www.linkedmodel.org/schema/vaem#definition</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://www.w3.org/2002/07/owl#disjointWith</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://www.w3.org/2002/07/owl#maxCardinality</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://www.linkedmodel.org/schema/dtype#code</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://www.linkedmodel.org/schema/vaem#url</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://www.linkedmodel.org/schema/dtype#value</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://www.linkedmodel.org/schema/dtype#order</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://www.linkedmodel.org/schema/vaem#name</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://www.linkedmodel.org/schema/vaem#id</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://www.linkedmodel.org/schema/dtype#defaultValue</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://www.w3.org/2002/07/owl#hasValue</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://qudt.org/schema/qudt#quantityKind</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://qudt.org/schema/qudt#description</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://qudt.org/schema/qudt#generalization</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://qudt.org/schema/qudt#element</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://qudt.org/schema/qudt#baseDimensionEnumeration</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://qudt.org/schema/qudt#systemDimension</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://qudt.org/schema/qudt#systemQuantityKind</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://qudt.org/schema/qudt#unitSystem</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://qudt.org/schema/qudt#currencyExponent</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://qudt.org/schema/qudt#symbol</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://qudt.org/schema/qudt#abbreviation</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://qudt.org/schema/qudt#code</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://qudt.org/schema/qudt#literal</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://qudt.org/schema/qudt#order</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://qudt.org/schema/qudt#systemUnit</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://qudt.org/schema/qudt#uneceCommonCode</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://qudt.org/schema/qudt#conversionMultiplier</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://qudt.org/schema/qudt#conversionOffset</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://qudt.org/schema/qudt#allowedUnitOfSystem</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://qudt.org/schema/qudt#unitOfSystem</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://qudt.org/schema/qudt#systemAllowedUnit</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://qudt.org/schema/qudt#baseQuantityKindOfSystem</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://qudt.org/schema/qudt#quantityKindOfSystem</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://qudt.org/schema/qudt#systemBaseQuantityKind</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://qudt.org/schema/qudt#baseUnitOfSystem</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://qudt.org/schema/qudt#coherentUnitOfSystem</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://qudt.org/schema/qudt#systemBaseUnit</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://qudt.org/schema/qudt#coherentDerivedUnitOfSystem</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://qudt.org/schema/qudt#derivedUnitOfSystem</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://qudt.org/schema/qudt#systemCoherentDerivedUnit</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://qudt.org/schema/qudt#definedUnitOfSystem</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://qudt.org/schema/qudt#systemCoherentUnit</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://qudt.org/schema/qudt#systemDefinedUnit</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://qudt.org/schema/qudt#derivedQuantityKindOfSystem</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://qudt.org/schema/qudt#systemDerivedQuantityKind</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://qudt.org/schema/qudt#systemDerivedUnit</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://qudt.org/schema/qudt#exactMatch</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://www.w3.org/2002/07/owl#onDatatype</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://www.w3.org/2001/XMLSchema#minInclusive</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://www.w3.org/2001/XMLSchema#maxInclusive</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://www.w3.org/2002/07/owl#withRestrictions</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://qudt.org/schema/qudt#specialization</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://qudt.org/schema/qudt#prefixUnitOfSystem</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://qudt.org/schema/qudt#systemPrefixUnit</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://www.w3.org/2001/XMLSchema#maxLength</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://www.w3.org/2002/07/owl#oneOf</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://www.w3.org/2002/07/owl#unionOf</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://www.linkedmodel.org/schema/vaem#hasScope</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://www.linkedmodel.org/schema/vaem#hasViewpointScope</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://www.linkedmodel.org/schema/vaem#ownedBy</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://voag.linkedmodel.org/schema/voag#intent</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://voag.linkedmodel.org/schema/voag#incompatibleWith</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://voag.linkedmodel.org/schema/voag#url</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://voag.linkedmodel.org/schema/voag#supercededBy</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://voag.linkedmodel.org/schema/voag#supercedes</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://voag.linkedmodel.org/schema/voag#compatibleWith</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://voag.linkedmodel.org/schema/voag#shortDescription</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://voag.linkedmodel.org/schema/voag#hasLogo</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://voag.linkedmodel.org/schema/voag#pointOfContact</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://voag.linkedmodel.org/schema/voag#image</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://voag.linkedmodel.org/schema/voag#permits</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://voag.linkedmodel.org/schema/voag#requires</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://voag.linkedmodel.org/schema/voag#basedOn</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://voag.linkedmodel.org/schema/voag#imageMap</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://www.w3.org/2002/07/owl#someValuesFrom</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://www.w3.org/2002/07/owl#intersectionOf</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://voag.linkedmodel.org/schema/voag#documentedAt</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://voag.linkedmodel.org/schema/voag#width</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://voag.linkedmodel.org/schema/voag#caption</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://voag.linkedmodel.org/schema/voag#height</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://voag.linkedmodel.org/schema/voag#deprecated</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://voag.linkedmodel.org/schema/voag#jurisdiction</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://voag.linkedmodel.org/schema/voag#legalcode</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://voag.linkedmodel.org/schema/voag#morePermissions</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://voag.linkedmodel.org/schema/voag#prohibits</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://voag.linkedmodel.org/schema/voag#useGuidelines</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://www.w3.org/2003/06/sw-vocab-status/ns#term_status</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://xmlns.com/foaf/0.1/mbox</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://xmlns.com/foaf/0.1/mbox_sha1sum</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://xmlns.com/foaf/0.1/gender</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://xmlns.com/foaf/0.1/geekcode</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://xmlns.com/foaf/0.1/dnaChecksum</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://xmlns.com/foaf/0.1/sha1</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://xmlns.com/foaf/0.1/based_near</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://xmlns.com/foaf/0.1/title</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://xmlns.com/foaf/0.1/nick</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://xmlns.com/foaf/0.1/jabberID</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://xmlns.com/foaf/0.1/aimChatID</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://xmlns.com/foaf/0.1/skypeID</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://xmlns.com/foaf/0.1/icqChatID</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://xmlns.com/foaf/0.1/yahooChatID</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://xmlns.com/foaf/0.1/msnChatID</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://xmlns.com/foaf/0.1/name</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://xmlns.com/foaf/0.1/firstName</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://xmlns.com/foaf/0.1/lastName</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://xmlns.com/foaf/0.1/givenName</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://xmlns.com/foaf/0.1/givenname</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://xmlns.com/foaf/0.1/surname</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://xmlns.com/foaf/0.1/family_name</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://xmlns.com/foaf/0.1/familyName</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://xmlns.com/foaf/0.1/phone</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://xmlns.com/foaf/0.1/homepage</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://xmlns.com/foaf/0.1/page</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://xmlns.com/foaf/0.1/isPrimaryTopicOf</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://xmlns.com/foaf/0.1/weblog</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://xmlns.com/foaf/0.1/openid</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://xmlns.com/foaf/0.1/tipjar</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://xmlns.com/foaf/0.1/plan</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://xmlns.com/foaf/0.1/made</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://xmlns.com/foaf/0.1/maker</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://purl.org/dc/terms/creator</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://xmlns.com/foaf/0.1/img</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://xmlns.com/foaf/0.1/depiction</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://xmlns.com/foaf/0.1/depicts</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://xmlns.com/foaf/0.1/thumbnail</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://xmlns.com/foaf/0.1/myersBriggs</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://xmlns.com/foaf/0.1/workplaceHomepage</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://xmlns.com/foaf/0.1/workInfoHomepage</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://xmlns.com/foaf/0.1/schoolHomepage</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://xmlns.com/foaf/0.1/knows</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://xmlns.com/foaf/0.1/interest</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://xmlns.com/foaf/0.1/topic_interest</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://xmlns.com/foaf/0.1/publications</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://xmlns.com/foaf/0.1/currentProject</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://xmlns.com/foaf/0.1/pastProject</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://xmlns.com/foaf/0.1/fundedBy</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://xmlns.com/foaf/0.1/logo</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://xmlns.com/foaf/0.1/topic</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://xmlns.com/foaf/0.1/primaryTopic</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://xmlns.com/foaf/0.1/focus</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://xmlns.com/foaf/0.1/theme</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://xmlns.com/foaf/0.1/account</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://xmlns.com/foaf/0.1/holdsAccount</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://xmlns.com/foaf/0.1/accountServiceHomepage</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://xmlns.com/foaf/0.1/accountName</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://xmlns.com/foaf/0.1/member</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://xmlns.com/foaf/0.1/membershipClass</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://xmlns.com/foaf/0.1/birthday</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://xmlns.com/foaf/0.1/age</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://xmlns.com/foaf/0.1/status</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://purl.org/dc/terms/title</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://purl.org/dc/terms/contributor</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://purl.org/dc/terms/description</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://www.w3.org/2004/02/skos/core#definition</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://www.w3.org/2004/02/skos/core#scopeNote</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://www.w3.org/2004/02/skos/core#example</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://www.w3.org/2004/02/skos/core#inScheme</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://www.w3.org/2004/02/skos/core#hasTopConcept</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://www.w3.org/2004/02/skos/core#topConceptOf</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://www.w3.org/2004/02/skos/core#prefLabel</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://www.w3.org/2004/02/skos/core#altLabel</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://www.w3.org/2004/02/skos/core#hiddenLabel</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://www.w3.org/2004/02/skos/core#notation</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://www.w3.org/2004/02/skos/core#note</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://www.w3.org/2004/02/skos/core#changeNote</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://www.w3.org/2004/02/skos/core#editorialNote</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://www.w3.org/2004/02/skos/core#historyNote</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://www.w3.org/2004/02/skos/core#semanticRelation</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://www.w3.org/2004/02/skos/core#broader</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://www.w3.org/2004/02/skos/core#broaderTransitive</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://www.w3.org/2004/02/skos/core#narrower</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://www.w3.org/2004/02/skos/core#narrowerTransitive</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://www.w3.org/2004/02/skos/core#related</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://www.w3.org/2004/02/skos/core#member</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://www.w3.org/2004/02/skos/core#memberList</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://www.w3.org/2004/02/skos/core#mappingRelation</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://www.w3.org/2004/02/skos/core#broadMatch</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://www.w3.org/2004/02/skos/core#narrowMatch</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://www.w3.org/2004/02/skos/core#relatedMatch</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://purl.org/ontology/bibo/identifier</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://purl.org/ontology/bibo/issue</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://purl.org/ontology/bibo/shortTitle</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://purl.org/ontology/bibo/volume</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://purl.org/ontology/bibo/numPages</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://purl.org/ontology/bibo/edition</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://erlangen-crm.org/current/P100_died_in</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://proton.semanticweb.org/protonsys#transitiveOver</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://purl.org/ontology/po/masterbrand</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://purl.org/ontology/po/episode</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://purl.org/ontology/po/clip</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://purl.org/ontology/po/series</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://purl.org/ontology/po/version</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://purl.org/ontology/po/genre</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://purl.org/ontology/po/subject</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://purl.org/ontology/po/place</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://purl.org/ontology/po/person</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://purl.org/ontology/po/microsite</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://purl.org/ontology/po/position</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://purl.org/ontology/po/short_synopsis</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://purl.org/ontology/po/medium_synopsis</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://purl.org/ontology/po/long_synopsis</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://purl.org/dc/terms/created</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://purl.org/dc/terms/modified</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://purl.org/ontology/po/pid</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://purl.org/ontology/po/image_pid</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#Property</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/2000/01/rdf-schema#subClassOf</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='s'>
+				<uri>http://www.w3.org/2000/01/rdf-schema#ContainerMembershipProperty</uri>
+			</binding>
+			<binding name='p'>
+				<uri>http://www.w3.org/2000/01/rdf-schema#subClassOf</uri>
+			</binding>
+		</result>
+	</results>
+</sparql>
