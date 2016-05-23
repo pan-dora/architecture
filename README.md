@@ -21,9 +21,9 @@ Currently, these components are documented in the following repositories or loca
 * [Virtuoso](https://github.com/openlink/virtuoso-opensource)
 
 ## Middleware
+* [IIIF Manifest Service](https://github.com/blumenbach/architecture/wiki/IIIF-Manifest-Service)
 * [Redis](http://redis.io/topics/quickstart)
 * [Riak KV](https://github.com/basho/riak_kv)
-* [Linked Data Fragments Server](https://github.com/LinkedDataFragments/Server.js/)
 
 ## Web App Layer
 * [IIIF Viewer](https://github.com/blumenbach/iiif-viewer)
@@ -32,18 +32,21 @@ Currently, these components are documented in the following repositories or loca
 * [XForms for TEI](https://github.com/blumenbach/orbeon-bb)
 * [Mediafiles Viewer](https://github.com/blumenbach/mediafiles)
 * [Sammlung Karte](https://github.com/blumenbach/sammlung-karte)
+* [Composite UI](https://github.com/blumenbach/composite-ui)
 
 ## Data Model
 * The Data Model for all [objects](https://github.com/blumenbach/collection-builder) is based on the [IIIF Presentation API](http://iiif.io/api/presentation/2.1/).
 * See [HOWTO](https://github.com/blumenbach/architecture/blob/master/data-model/HOWTO.md) for specifics.
 
 ## Event Model 
-The Event Model of the Web App layer provides dynamic topology via [redis pubsub messaging](http://redis.io/topics/pubsub).
+The Event Model of the Web App layer provides realtime dynamic topology via:  
+* [socket.io](https://github.com/socketio/socket.io/)  
+* [redis pubsub messaging](http://redis.io/topics/pubsub).  
 
 ## Session Model
 Assuming a load balanced reverse proxy to the worker instances,
-"[sticky sessions](https://www.npmjs.com/package/sticky-session)" are needed to maintain client state with socket.io.  
-Redis (or Riak) will provide persistent session storage. 
+"[sticky sessions](https://www.npmjs.com/package/sticky-session)" will be used.  
+[Redis](http://redis.io/) (or [Riak KV](https://github.com/basho/riak_kv)) will provide persistent session storage. 
 
 
 ## Key Web App Node.js Libraries
