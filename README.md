@@ -38,12 +38,14 @@ Currently, these components are documented in the following repositories or loca
 * See [HOWTO](https://github.com/blumenbach/architecture/blob/master/data-model/HOWTO.md) for specifics.
 
 ## Event Model 
-The Event Model of the Web App layer provides dynamic topology via [redis pubsub messaging](http://redis.io/topics/pubsub).
+The Event Model of the Web App layer provides realtime dynamic topology via:  
+* [socket.io](https://github.com/socketio/socket.io/)  
+* [redis pubsub messaging](http://redis.io/topics/pubsub).  
 
 ## Session Model
 Assuming a load balanced reverse proxy to the worker instances,
-"[sticky sessions](https://www.npmjs.com/package/sticky-session)" are needed to maintain client state with socket.io.  
-Redis (or Riak) will provide persistent session storage. 
+"[sticky sessions](https://www.npmjs.com/package/sticky-session)" will be used.  
+[Redis](http://redis.io/) (or [Riak KV](https://github.com/basho/riak_kv)) will provide persistent session storage. 
 
 
 ## Key Web App Node.js Libraries
