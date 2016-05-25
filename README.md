@@ -21,7 +21,7 @@ Currently, these components are documented in the following repositories or loca
 * [Virtuoso](https://github.com/openlink/virtuoso-opensource)
 
 ## Middleware
-* [IIIF Manifest Service](https://github.com/blumenbach/architecture/wiki/IIIF-Manifest-Service)
+* [IIIF Manifest Service](https://github.com/blumenbach/iiif-manifest-service)
 * [Redis](http://redis.io/topics/quickstart)
 * [Riak KV](https://github.com/basho/riak_kv)
 
