@@ -1,0 +1,125 @@
+Property_ID,Property_ID_Sort,property label (de),property label (en),ecrm+ property class,property type,datatype,notes
+`a0`,`a0`,Zusammenfassende Bezeichnung [Sammlungs-Akronym und Inventar-Nummer …],Summarising term [Collection Acronym and inventory number ...],E35 Title,data,xsd-string,
+`a1`,`a01`,Zuordnung,Assignment,E42 Identifier,data (metaobject),xsd-string,
+`a2`,`a02`,Sammlungs-Akronym,Collection Acronym,E42 Identifier,data (metaobject),xsd-string,
+`a3`,`a03`,Heutige Inventar-Nummer,Today's inventory number,E42 Identifier,data,xsd-string,
+`a4`,`a04`,Original-Nummer(n),Original number (s),E42 Identifier,data,xsd-string,
+`a5`,`a05`,Sekundär-Nummer(n),Secondary number (s),E42 Identifier,data,xsd-string,
+`a6`,`a06`,Stückzahl/Serie,Number / series,E42 Identifier,data,xsd-string,
+`a7a`,`a07a`,Großgruppe (in Fachtermini),United Group (in technical terms),E55 Type,data (metaobject),xsd-string,taxon
+`a7b`,`a07b`,Großgruppe (allgemein),United Group (general),E55 Type,data (metaobject),xsd-string,
+`a8`,`a08`,Original-Bezeichnung(en),Original name (s),E35 Title,data,xsd-string,
+`a9a`,`a09a`,Neue Bezeichnung (in Fachtermini),New name (in technical terms),E55 Type,data (metaobject),xsd-string,
+`a9b`,`a09b`,Neue Bezeichnung (allgemein),New name (in general),E55 Type,data (metaobject),xsd-string,
+`a9c`,`a09c`,Synonyma,Synonyma,E55 Type,data,xsd-string,
+`a10`,`a10`,Text vom Original-Etikett/von den Original-Etiketten,Text from the original label / from the original labels,E34 Inscription,data,xsd-string,
+`a11`,`a11`,Text von Original-Beschriftung direkt auf dem Objekt/den Objekten,Text of original lettering directly on the object / objects,E34 Inscription,data,xsd-string,
+`a12a`,`a12a`,Alter/Datierung von,Age / dating,E50 Date,data,xsd-string,
+`a12aa`,`a12aa`,Alter/Datierung bis:,Age / Date to:,E50 Date,data,xsd-string,
+`a12b`,`a12b`,Bemerkungen zum Alter/zur Datierung:,Remarks about the age / Dating:,B01_Curation_Note,data,xsd-string,
+`a12c`,`a12c`,Datierungsmethode,Dating method,E55 Type,data,xsd-string,
+`a12d`,`a12d`,Bemerkungen zur Datierungsmethode,Comments on the dating method,B01_Curation_Note,data,xsd-string,
+`a12e`,`a12e`,Fall-/Fundumstände:,observed or unobserved case,B01_Curation_Note,data,xsd-string,
+`a12f`,`a12f`,Bemerkungen zu den Fall-/Fundumständen:,comments ,B01_Curation_Note,data,xsd-string,
+`a12g`,`a12g`, Datum (Fall/Erstfund) von,date,E50 Date,data,xsd-date,
+`a12h`,`a12h`,Datum (Fall/Erstfund) bis:,date,E50 Date,data,xsd-date,
+`a12i`,`a12i`,Bemerkungen zum Fall-/Funddatum:,comments ,B01_Curation_Note,data,xsd-string,
+`a13a`,`a13a`,Fundort,Locality,E48 Place Name,data (metaobject),xsd-string,
+`a13b`,`a13b`,Fundort-Koordinaten:,Location coordinates:,E47 Spatial Coordinates,data,xsd-string,malformed (will convert to decimal)
+`a13c`,`a13c`,Fundort Orts-Getty-ID,Locality local Getty ID,E32 Authority Document,object,uri,needs expansion
+`a13d`,`a13d`,Fundort übergeordnete orts-Getty-ID:,Locality parent location-Getty ID:,E32 Authority Document,object,uri,needs expansion
+`a14a`,`a14a`,Sammler (leg.),Collectors (leg.),E82 Actor Appellation,data,xsd-string,
+`a14aa`,`a14aa`,CERL-Id/interne Id Sammler (leg.),CERL-Id / Id internal collector (leg.),E32 Authority Document,object,uri,needs expansion
+`a14b`,`a14b`,Datum (leg.) von,Date (leg.) Of,E50 Date,data,xsd-string,
+`a14ba`,`a14ba`,Datum (leg.) bis,Date (leg.) To,E50 Date,data,xsd-date,malformed (will convert to ISO)
+`a15a`,`a15a`,Erhalten von,Received from,E82 Actor Appellation,data,xsd-date,malformed (will convert to ISO)
+`a15aa`,`a15aa`,CERL-Id/interne Id Donator/Geber (don./ded.),CERL-Id / Id internal donor / donors (Don. / Ded.),E32 Authority Document,object,uri,needs expansion
+`a15b`,`a15b`,Datum (Sammlungseingang) von:,Date (Collection entry) by:,E50 Date,data,xsd-date,malformed (will convert to ISO)
+`a15ba`,`a15ba`,Datum (Sammlungseingang) bis,Date (collection receipt) to,E50 Date,data,xsd-date,malformed (will convert to ISO)
+`a16a`,`a16a`,Erwerbsform,Acquisition form,E82 Actor Appellation,data,xsd-string,
+`a16b`,`a16b`,Im Besitz der Universität seit,Owned by the university since,E50 Date,data,xsd-string,
+`a17`,`a17`,"Bemerkungen zu Sammler, Donator und Erwerbsform","Comments on collector, donor and acquisition form",B01_Curation_Note,data,xsd-string,
+`a18`,`a18`,Erwähnungs-Original zu,Bibliographic Reference (mentioned by),E32 Authority Document,data,xsd-string,
+`a19`,`a19`,Beschreibungs-Original zu,Description Original Reference,E32 Authority Document,data,xsd-string,
+`a20`,`a20`,Abbildungs-Original zu,Original Picture Reference,E32 Authority Document,data,xsd-string,
+`a21`,`a21`,Botanischer-/Zoologischer-/Paläontologischer-/Mineralogischer Typus:,,B01_Curation_Note,data,,"yes, no or maybe"
+`a22`,`a22`,Sekundär-Literatur,Secondary literature,E32 Authority Document,data,xsd-string,
+`a23`,`a23`,"Bemerkungen zu Erwähnungs-, Beschreibungs- und Abbildungs-Originalen, Typus und Sekundär-Literatur","Comments to Erwähnungs-, description and mapping originals, type, and secondary literature",B01_Curation_Note,data,xsd-string,
+`a24a`,`a24a`,Standort [Für externen Zugriff],Location [remote access],E48 Place Name,data,xsd-string,
+`a24b`,`a24b`,Standort [Für internen Zugriff],Location [for internal access],E48 Place Name,data,xsd-string,
+`a25`,`a25`,,PersonName,E82 Actor Appellation,data,xsd-string,
+`a25a_a`,`a25a_a`,,CERL-ID,E32 Authority Document,object,uri,needs expansion
+`a25a`,`a25a`,,PlaceName,E48 Place Name,data,xsd-string,
+`a25ab`,`a25ab`,,PlaceCoordinates,E47 Spatial Coordinates,data,xsd-string,malformed (will convert to decimal)
+`a25ac`,`a25ac`,,GettyID,E32 Authority Document,object,uri,needs expansion
+`a25b`,`a25b`,,date,E50 Date,data,xsd-date,
+`a25c`,`a25c`,,date,E50 Date,data,xsd-date,
+`a26`,`a26`,Objekt-Typ,Property type,E55 Type,object,,"Artificialia, Naturalia or Artificialia/Naturalia"
+`a27`,`a27`,Nutzungsbedingungen für die digitalen Abbildungen,Terms of use of digital pictures,E30 Right,data,xsd-string,unused
+`a28`,`a28`,Rechtehinweise für die digitalen Abbildungen,Rights Advice for digital pictures,E30 Right,data,xsd-string,
+`a9d`,`a9d`,unique Identifier (uri):,Unique Identifier (URI) (Authority Reference),E32 Authority Document,object,uri,
+`b1`,`b01`,Art des Objektes/der Objekte,Property type / objects,E55 Type,data,xsd-string,
+`b2`,`b02`,Material des Objektes/der Objekte,Material of the object / objects,E57 Material,data,xsd-string,
+`b3a`,`b03a`,,State of Material,B01_Curation_Note,data,xsd-string,
+`b3b`,`b03b`,Ethnie,ethnicity,E55 Type,data,xsd-string,
+`b3c`,`b03c`,,,,,,unused
+`b3d`,`b03d`,Bemerkungen zu B1-B3,Comments on B1-B3,B01_Curation_Note,data,xsd-string,
+`b4a`,`b04a`,Geschlecht,gender,E55 Type,data (metaobject),xsd-string,
+`b4aa`,`b04aa`,Alter in Jahren,Age in years,E52 Time-Span,data,xsd-string,
+`b4b`,`b04b`,Krankheitsstatus/pathologischer Befund,Disease Status / pathology,B01_Curation_Note,data,xsd-string,
+`b4c`,`b04c`,Morphologischer Typus,morphological type,E55 Type,data (metaobject),xsd-string,
+`b4ca`,`b04ca`,Morphologische Besonderheiten,Morphological peculiarities,B01_Curation_Note,data,xsd-string,
+`b4d`,`b04d`,Geographische Region,Geographical region,E48 Place Name,data (metaobject),xsd-string,
+`b5`,`b05`,"Funktion, Anwendung und Symbolik des Objektes/der Objekte","Function, use and symbolism of the object / objects",B01_Curation_Note,data,xsd-string,
+`b6`,`b06`,Bemerkungen zur B4a-B5,Comments for B4a-B5,B01_Curation_Note,data,xsd-string,
+`b7a`,`b07a`,Größe des Objektes/der Objekte:,Size of the object / objects:,E54 Dimension,data,xsd-string,
+`b7b`,`b07b`,Anthropologische Vermessung,Anthropological survey,B01_Curation_Note,,,unused
+`b7c`,`b07c`,Bemerkungen zur anthropologischen Vermessung,Comments on the anthropological survey,B01_Curation_Note,data,,unused
+`b8`,`b08`,Gewicht des Objektes/der Objekte,Weight of the object / objects,E54 Dimension,data,xsd-string,
+`b9a`,`b09a`,Art der historischen Aufbewahrung des Objektes/der Objekte,Type of historical retention of the object / objects,E55 Type,data (metaobject),xsd-string,
+`b9b`,`b09b`,Bemerkungen zur historischen Aufbewahrung:,Comments on the historical retention:,B01_Curation_Note,data,xsd-string,
+`b10a`,`b10a`,Zustand des Objektes/der Objekte,State of the object / objects,B01_Curation_Note,data (metaobject),xsd-string,
+`b10b`,`b10b`,Bemerkungen zum Zustand des Objektes/der Objekte,Remarks about the state of the object / objects,B01_Curation_Note,data,xsd-string,
+`b11a`,`b11a`,Konservierung/Restaurierung nötig?,Conservation / Restoration necessary?,B01_Curation_Note,data,boolean,
+`b11b`,`b11b`,letzte Konservierung/Restaurierung,last Conservation / Restoration,B01_Curation_Note,data,xsd-string,
+`b11c`,`b11c`,Datum der letzten Konservierung/Restaurierung,Last Conservation / Restoration,E50 Date,data,xsd-date,malformed (will convert to ISO)
+`b12`,`b12`,Heutige Inventar-Nummer:,Today's inventory number:,E42 Identifier,data,xsd-string,
+`c1`,`c01`,Anzahl der Original-Etiketten,Number of full-labels,B01_Curation_Note,data,xsd-string,
+`c2`,`c02`,Anzahl der Sekundär-Etiketten,Number of secondary labels ,B01_Curation_Note,data,xsd-string,
+`c3`,`c03`,Art und Position des Original-Etiketts/der Original-Etiketten,Type and location of the original label / the original labels,E55 Type,data (metaobject),xsd-string,
+`c4`,`c04`,Größe des Original-Etiketts/der Original-Etiketten,Size of the original label / the original labels,E54 Dimension,data,dimension,
+`c5`,`c05`,Art der Schrift auf dem Original-Etiketts/den Original-Etiketten,Type the characters on the original label / the original labels,E55 Type,data (metaobject),xsd-string,
+`c6a`,`c06a`,Zustand des Original-Etiketts/der Original-Etiketten:,State of the original label / the original labels:,B01_Curation_Note,data,xsd-string,
+`c6b`,`c06b`,Bemerkungen zum Zustand des Original-Etiketts/der Original-Etiketten,Remarks about the condition of the original label / the original labels,B01_Curation_Note,data,xsd-string,
+`c7a`,`c07a`,Konservierung/Restaurierung nötig,Conservation / restoration needed,B01_Curation_Note,data,boolean,
+`c7b`,`c07b`,letzte Konservierung/Restaurierung,last Conservation / Restoration,B01_Curation_Note,data,xsd-string,
+`c7c`,`c07c`,Datum der letzten Konservierung/Restaurierung,Last Conservation / Restoration,E50 Date,data,,unused
+`crdate`,`crdate`,Crdate,Crdate,E50 Date,data,date (unix),
+`cruser_id`,`cruser_id`,Cruser_id,Cruser_id,E42 Identifier,data,xsd-integer,
+`d1`,`d01`,Position des historischen Textes auf dem Objekt/den Objekten bzw. der historischen Aufbewahrung,Position of the historical text on the object / objects or of historical Storage,B01_Curation_Note,data,xsd-string,
+`d2`,`d02`,Schrift des historischen Textes auf dem Objekt/den Objekten bzw. der historischen Aufbewahrung,Font of the historical text on the object / objects or of historical Storage,B01_Curation_Note,data,xsd-string,
+`d3a`,`d03a`,Zustand des Original-Textes auf dem Objekt/den Objekten bzw. der historischen Aufbewahrung,State of the original text on the object / objects or of historical Storage,B01_Curation_Note,data,xsd-string,
+`d3b`,`d03b`,Bemerkungen zum Zustand des Original-Textes auf dem Objekt/den Objekten bzw. der historischen Aufbewahrung,Remarks about the condition of the original text on the object / objects or of historical Storage,B01_Curation_Note,data,xsd-string,
+`e1`,`e01`,Art und Position der Original-Nummer(n):,Type and location of the original number (s):,E55 Type,data,xsd-string,
+`e2`,`e02`,Größe der Etiketten der Original-Nummer(n):,Size of the labels of the original number (s):,E54 Dimension,data,xsd-string,
+`e3`,`e03`,Art der Schrift der Original-Nummer(n):,Art of writing the original number (s):,E55 Type,data (metaobject),xsd-string,
+`e4a`,`e04a`,Zustand der Original-Nummer(n):,State the original number (s):,B01_Curation_Note,data,xsd-string,
+`e4b`,`e04b`,Bemerkungen zum Zustand der Original-Nummer(n):,Remarks about the condition of the original number (s):,B01_Curation_Note,data,xsd-string,
+`e5a`,`e05a`,Konservierung/Restaurierung nötig,Conservation / restoration needed,B01_Curation_Note,data,boolean,
+`e5b`,`e05b`, letzte Konservierung/Restaurierung:,Last Conservation / Restoration:,B01_Curation_Note,data,xsd-string,
+`e5c`,`e05c`,Datum der letzten Konservierung/Restaurierung:,Date of Last Conservation / Restoration:,E50 Date,data,,unused
+`f1`,`f01`, Bemerkungen (allgemein),Remarks (general),B01_Curation_Note,data,xsd-string,
+`f2a`,`f02a`,Bearbeiter,arranger,E82 Actor Appellation,data,xsd-string,
+`f2b`,`f02b`,Datum der Erstbearbeitung,Date first processing,E50 Date,data,xsd-date,
+`f3a`,`f03a`,Letzte Änderung von,Last modification by,E82 Actor Appellation,data,xsd-string,
+`f3b`,`f03b`,Letzte Änderung am,last changes at,E50 Date,data,xsd-date,
+`f4`,`f04`,Erwähnung im Briefwechsel:,Mention in his correspondence:,B01_Curation_Note,,,unused
+`f5`,`f05`,Erwähnung in handschriftlichen Katalogen Blumenbachs,Mention in handwritten catalogs Blumenbach,B01_Curation_Note,,,unused
+`f6`,`f06`,Verlinkung zu digitalisierten Schriften,Linking to digitized fonts,B01_Curation_Note,,,unused
+`f7`,`f07`,Verlinkung zu digitalisierten Original-Abbildungen,Linking to digitized original images,B01_Curation_Note,,,unused
+`f8`,`f08`,Verlinkung zu digitalisierten Briefen,Linking to digitized letters,B01_Curation_Note,data,,
+`f9`,`f09`, Schlagworte,Keywords,B01_Curation_Note,data,xsd-string,
+`kerndaten_id`,`kerndaten_id`,Kerndaten-ID,Core Data ID,E42 Identifier,data,xsd-integer,
+`pid`,`pid`,Pid,Pid,E42 Identifier,data,xsd-integer,
+`tstamp`,`tstamp`,Tstamp,Tstamp,E50 Date,data,date (unix),
+`uid`,`uid`,Uid,Uid,E42 Identifier,data,xsd-integer,

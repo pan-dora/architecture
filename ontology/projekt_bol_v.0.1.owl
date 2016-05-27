@@ -1,0 +1,394 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE Ontology [
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY xml "http://www.w3.org/XML/1998/namespace" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://purl.org/vocab/blumenbach"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://purl.org/vocab/blumenbach">
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Declaration>
+        <Class IRI="#AIG_Anatomie"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AIG_Taxon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Artifact"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Artifact.Etikett"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Artifact.Number"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Artifact.Text"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BOL.TXT_Brief"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BOL.TXT_Edition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BOL_Entity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BOL_Object"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BOL_Text"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Brief"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#E12_Production"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#E19_Physical_Object"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#E20_Biological_Object"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#E21_Person"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#E24_Physical_Man-Made_Thing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#E31_Document"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#E32_Authority_Document"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#E34_Inscription"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#E35_Title"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#E36_Visual_Item"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#E38_Image"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#E39_Actor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#E40_Legal_Body"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#E41_Appellation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#E42_Identifier"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#E47_Spatial_Coordinates"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#E48_Place_Name"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#E52_Time-Span"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#E53_Place"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#E54_Dimension"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#E55_Type"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#E73_Information_Object"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#E74_Group"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#E78_Collection"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#E7_Activity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#E82_Actor_Appellation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#E83_Type_Creation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#E87_Curation_Activity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Edition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Etikett"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GZG.GSP_Geologie"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GZG.ME_Meteoritenkunde"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GZG.MIN_Mineralogie"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GZG_Taxon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Place_Appellation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Primary"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Secondary"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Akademie_der_Wissenschaften_zu_Göttingen"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Blumenbachsche_Schädelsammlung"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Geowissenschaftliches_Zentrum_Göttingen"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sammlungen_des_Geowissenschaftlichen_Zentrums"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Zentrum_Anatomie_der_Universitätsmedizin_Göttingen"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#AIG_Anatomie"/>
+        <Class IRI="#AIG_Taxon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AIG_Taxon"/>
+        <Class IRI="#E55_Type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Artifact"/>
+        <Class IRI="#BOL_Object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Artifact.Etikett"/>
+        <Class IRI="#BOL_Object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Artifact.Number"/>
+        <Class IRI="#BOL_Object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Artifact.Text"/>
+        <Class IRI="#BOL_Object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BOL_Object"/>
+        <Class IRI="#E55_Type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BOL_Text"/>
+        <Class IRI="#E55_Type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Brief"/>
+        <Class IRI="#Primary"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#E12_Production"/>
+        <Class IRI="#E7_Activity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#E19_Physical_Object"/>
+        <Class IRI="#BOL_Entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#E20_Biological_Object"/>
+        <Class IRI="#E19_Physical_Object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#E21_Person"/>
+        <Class IRI="#E39_Actor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#E24_Physical_Man-Made_Thing"/>
+        <Class IRI="#BOL_Entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#E31_Document"/>
+        <Class IRI="#E73_Information_Object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#E32_Authority_Document"/>
+        <Class IRI="#E31_Document"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#E34_Inscription"/>
+        <Class IRI="#E36_Visual_Item"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#E35_Title"/>
+        <Class IRI="#E41_Appellation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#E36_Visual_Item"/>
+        <Class IRI="#E73_Information_Object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#E38_Image"/>
+        <Class IRI="#E36_Visual_Item"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#E39_Actor"/>
+        <Class IRI="#BOL_Entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#E40_Legal_Body"/>
+        <Class IRI="#E74_Group"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#E41_Appellation"/>
+        <Class IRI="#BOL_Entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#E42_Identifier"/>
+        <Class IRI="#E41_Appellation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#E47_Spatial_Coordinates"/>
+        <Class IRI="#Place_Appellation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#E48_Place_Name"/>
+        <Class IRI="#Place_Appellation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#E52_Time-Span"/>
+        <Class IRI="#BOL_Entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#E53_Place"/>
+        <Class IRI="#BOL_Entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#E54_Dimension"/>
+        <Class IRI="#BOL_Entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#E55_Type"/>
+        <Class IRI="#BOL_Entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#E73_Information_Object"/>
+        <Class IRI="#BOL_Entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#E74_Group"/>
+        <Class IRI="#E39_Actor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#E78_Collection"/>
+        <Class IRI="#E24_Physical_Man-Made_Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#E7_Activity"/>
+        <Class IRI="#BOL_Entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#E82_Actor_Appellation"/>
+        <Class IRI="#E41_Appellation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#E83_Type_Creation"/>
+        <Class IRI="#E7_Activity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#E87_Curation_Activity"/>
+        <Class IRI="#E7_Activity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Edition"/>
+        <Class IRI="#Primary"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Etikett"/>
+        <Class IRI="#BOL_Object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GZG.GSP_Geologie"/>
+        <Class IRI="#GZG_Taxon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GZG.ME_Meteoritenkunde"/>
+        <Class IRI="#GZG_Taxon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GZG.MIN_Mineralogie"/>
+        <Class IRI="#GZG_Taxon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GZG_Taxon"/>
+        <Class IRI="#E55_Type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Place_Appellation"/>
+        <Class IRI="#E41_Appellation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Primary"/>
+        <Class IRI="#BOL_Text"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Secondary"/>
+        <Class IRI="#BOL_Text"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#E40_Legal_Body"/>
+        <NamedIndividual IRI="#Akademie_der_Wissenschaften_zu_Göttingen"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#E78_Collection"/>
+        <NamedIndividual IRI="#Blumenbachsche_Schädelsammlung"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#E40_Legal_Body"/>
+        <NamedIndividual IRI="#Geowissenschaftliches_Zentrum_Göttingen"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#E78_Collection"/>
+        <NamedIndividual IRI="#Sammlungen_des_Geowissenschaftlichen_Zentrums"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#E40_Legal_Body"/>
+        <NamedIndividual IRI="#Zentrum_Anatomie_der_Universitätsmedizin_Göttingen"/>
+    </ClassAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 3.5.0) http://owlapi.sourceforge.net -->
+
