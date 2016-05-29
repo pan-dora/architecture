@@ -1,0 +1,529 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE Ontology [
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY xml "http://www.w3.org/XML/1998/namespace" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://purl.org/vocab/blumenbach"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://purl.org/vocab/blumenbach">
+    <Prefix name="" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="dc" IRI="http://purl.org/dc/elements/1.1/"/>
+    <Prefix name="oa" IRI="http://www.w3.org/ns/oa#"/>
+    <Prefix name="sc" IRI="http://iiif.io/api/presentation/2#"/>
+    <Prefix name="cnt" IRI="http://www.w3.org/2011/content#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="ecrm" IRI="http://erlangen-crm.org/160331/"/>
+    <Prefix name="exif" IRI="http://www.w3.org/2003/12/exif/ns#"/>
+    <Prefix name="iiif" IRI="http://iiif.io/api/image/2#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="dcterms" IRI="http://purl.org/dc/terms/"/>
+    <Prefix name="dctypes" IRI="http://purl.org/dc/dcmitype/"/>
+    <Declaration>
+        <Class abbreviatedIRI="ecrm:E12_Production"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="ecrm:E19_Physical_Object"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="ecrm:E20_Biological_Object"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="ecrm:E21_Person"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="ecrm:E24_Physical_Man-Made_Thing"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="ecrm:E31_Document"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="ecrm:E32_Authority_Document"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="ecrm:E34_Inscription"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="ecrm:E35_Title"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="ecrm:E36_Visual_Item"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="ecrm:E38_Image"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="ecrm:E39_Actor"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="ecrm:E40_Legal_Body"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="ecrm:E41_Appellation"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="ecrm:E42_Identifier"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="ecrm:E47_Spatial_Coordinates"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="ecrm:E48_Place_Name"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="ecrm:E52_Time-Span"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="ecrm:E53_Place"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="ecrm:E54_Dimension"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="ecrm:E55_Type"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="ecrm:E73_Information_Object"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="ecrm:E74_Group"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="ecrm:E78_Collection"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="ecrm:E7_Activity"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="ecrm:E82_Actor_Appellation"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="ecrm:E83_Type_Creation"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="ecrm:E87_Curation_Activity"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="sc:AnnotationList"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="sc:Canvas"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="sc:Collection"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="sc:Layer"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="sc:Manifest"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="sc:Range"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="sc:Sequence"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="dctypes:Image"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AIG_Anatomie"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AIG_Taxon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Artifact"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Artifact.Etikett"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Artifact.Number"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Artifact.Text"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BOL.DOR_Resource"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BOL.EXIST_Resource"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BOL.OBJ_RDF"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BOL.TXT_RDF"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BOL.TXT_TEI"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BOL_Entity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BOL_Objekt_Type"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BOL_TXT_Type"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Brief"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Edition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Etikett"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GZG.GSP_Geologie"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GZG.ME_Meteoritenkunde"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GZG.MIN_Mineralogie"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GZG_Taxon"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="ecrm:E44_Place_Appellation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Primary"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Secondary"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="oa:Annotation"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://iiif.io/api/presentation/2/IIIF_Presentation_API"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Akademie_der_Wissenschaften_zu_Göttingen"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Blumenbachsche_Schädelsammlung"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Geowissenschaftliches_Zentrum_Göttingen"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sammlungen_des_Geowissenschaftlichen_Zentrums"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Zentrum_Anatomie_der_Universitätsmedizin_Göttingen"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://vocab.getty.edu/ontology#Getty_Vocabulary_Program"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.tei-c.org/ns/1.0#TEI_Schema"/>
+    </Declaration>
+    <SubClassOf>
+        <Class abbreviatedIRI="ecrm:E12_Production"/>
+        <Class abbreviatedIRI="ecrm:E7_Activity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="ecrm:E19_Physical_Object"/>
+        <Class IRI="#BOL_Entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="ecrm:E20_Biological_Object"/>
+        <Class abbreviatedIRI="ecrm:E19_Physical_Object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="ecrm:E21_Person"/>
+        <Class abbreviatedIRI="ecrm:E39_Actor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="ecrm:E24_Physical_Man-Made_Thing"/>
+        <Class IRI="#BOL_Entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="ecrm:E31_Document"/>
+        <Class abbreviatedIRI="ecrm:E73_Information_Object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="ecrm:E32_Authority_Document"/>
+        <Class abbreviatedIRI="ecrm:E31_Document"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="ecrm:E34_Inscription"/>
+        <Class abbreviatedIRI="ecrm:E36_Visual_Item"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="ecrm:E35_Title"/>
+        <Class abbreviatedIRI="ecrm:E41_Appellation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="ecrm:E36_Visual_Item"/>
+        <Class abbreviatedIRI="ecrm:E73_Information_Object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="ecrm:E38_Image"/>
+        <Class abbreviatedIRI="ecrm:E36_Visual_Item"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="ecrm:E39_Actor"/>
+        <Class IRI="#BOL_Entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="ecrm:E40_Legal_Body"/>
+        <Class abbreviatedIRI="ecrm:E74_Group"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="ecrm:E41_Appellation"/>
+        <Class IRI="#BOL_Entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="ecrm:E42_Identifier"/>
+        <Class abbreviatedIRI="ecrm:E41_Appellation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="ecrm:E47_Spatial_Coordinates"/>
+        <Class IRI="#Place_Appellation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="ecrm:E48_Place_Name"/>
+        <Class IRI="#Place_Appellation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="ecrm:E52_Time-Span"/>
+        <Class IRI="#BOL_Entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="ecrm:E53_Place"/>
+        <Class IRI="#BOL_Entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="ecrm:E54_Dimension"/>
+        <Class IRI="#BOL_Entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="ecrm:E55_Type"/>
+        <Class IRI="#BOL_Entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="ecrm:E73_Information_Object"/>
+        <Class IRI="#BOL_Entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="ecrm:E74_Group"/>
+        <Class abbreviatedIRI="ecrm:E39_Actor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="ecrm:E78_Collection"/>
+        <Class abbreviatedIRI="ecrm:E24_Physical_Man-Made_Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="ecrm:E7_Activity"/>
+        <Class IRI="#BOL_Entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="ecrm:E82_Actor_Appellation"/>
+        <Class abbreviatedIRI="ecrm:E41_Appellation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="ecrm:E83_Type_Creation"/>
+        <Class abbreviatedIRI="ecrm:E7_Activity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="ecrm:E87_Curation_Activity"/>
+        <Class abbreviatedIRI="ecrm:E7_Activity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="sc:AnnotationList"/>
+        <Class abbreviatedIRI="sc:Canvas"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="sc:AnnotationList"/>
+        <Class abbreviatedIRI="sc:Layer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="sc:Canvas"/>
+        <Class abbreviatedIRI="sc:Range"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="sc:Canvas"/>
+        <Class abbreviatedIRI="sc:Sequence"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="sc:Collection"/>
+        <Class IRI="#BOL.DOR_Resource"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="sc:Layer"/>
+        <Class abbreviatedIRI="sc:Range"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="sc:Manifest"/>
+        <Class abbreviatedIRI="sc:Collection"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="sc:Range"/>
+        <Class abbreviatedIRI="sc:Manifest"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="sc:Sequence"/>
+        <Class abbreviatedIRI="sc:Manifest"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="dctypes:Image"/>
+        <Class abbreviatedIRI="ecrm:E38_Image"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="dctypes:Image"/>
+        <Class abbreviatedIRI="oa:Annotation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AIG_Anatomie"/>
+        <Class IRI="#AIG_Taxon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AIG_Taxon"/>
+        <Class abbreviatedIRI="ecrm:E55_Type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Artifact"/>
+        <Class IRI="#BOL_Objekt_Type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Artifact.Etikett"/>
+        <Class IRI="#BOL_Objekt_Type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Artifact.Number"/>
+        <Class IRI="#BOL_Objekt_Type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Artifact.Text"/>
+        <Class IRI="#BOL_Objekt_Type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BOL.DOR_Resource"/>
+        <Class abbreviatedIRI="ecrm:E31_Document"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BOL.EXIST_Resource"/>
+        <Class abbreviatedIRI="sc:AnnotationList"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BOL.OBJ_RDF"/>
+        <Class abbreviatedIRI="sc:AnnotationList"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BOL.TXT_RDF"/>
+        <Class abbreviatedIRI="sc:AnnotationList"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BOL.TXT_TEI"/>
+        <Class IRI="#BOL.EXIST_Resource"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BOL_Objekt_Type"/>
+        <Class abbreviatedIRI="ecrm:E55_Type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BOL_TXT_Type"/>
+        <Class abbreviatedIRI="ecrm:E55_Type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Brief"/>
+        <Class IRI="#Primary"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Edition"/>
+        <Class IRI="#Primary"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Etikett"/>
+        <Class IRI="#BOL_Objekt_Type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GZG.GSP_Geologie"/>
+        <Class IRI="#GZG_Taxon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GZG.ME_Meteoritenkunde"/>
+        <Class IRI="#GZG_Taxon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GZG.MIN_Mineralogie"/>
+        <Class IRI="#GZG_Taxon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GZG_Taxon"/>
+        <Class abbreviatedIRI="ecrm:E55_Type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Place_Appellation"/>
+        <Class abbreviatedIRI="ecrm:E41_Appellation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Primary"/>
+        <Class IRI="#BOL_TXT_Type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Secondary"/>
+        <Class IRI="#BOL_TXT_Type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="oa:Annotation"/>
+        <Class abbreviatedIRI="sc:Canvas"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class abbreviatedIRI="ecrm:E32_Authority_Document"/>
+        <NamedIndividual IRI="http://iiif.io/api/presentation/2/IIIF_Presentation_API"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="ecrm:E40_Legal_Body"/>
+        <NamedIndividual IRI="#Akademie_der_Wissenschaften_zu_Göttingen"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="ecrm:E78_Collection"/>
+        <NamedIndividual IRI="#Blumenbachsche_Schädelsammlung"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="ecrm:E40_Legal_Body"/>
+        <NamedIndividual IRI="#Geowissenschaftliches_Zentrum_Göttingen"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="ecrm:E78_Collection"/>
+        <NamedIndividual IRI="#Sammlungen_des_Geowissenschaftlichen_Zentrums"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="ecrm:E40_Legal_Body"/>
+        <NamedIndividual IRI="#Zentrum_Anatomie_der_Universitätsmedizin_Göttingen"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="ecrm:E32_Authority_Document"/>
+        <NamedIndividual IRI="http://vocab.getty.edu/ontology#Getty_Vocabulary_Program"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="ecrm:E32_Authority_Document"/>
+        <NamedIndividual IRI="http://www.tei-c.org/ns/1.0#TEI_Schema"/>
+    </ClassAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 3.5.0) http://owlapi.sourceforge.net -->
+

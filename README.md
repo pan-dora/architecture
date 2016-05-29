@@ -36,7 +36,9 @@ Currently, these components are documented in the following repositories or loca
 
 ## Data Model
 * The Data Model for all [objects](https://github.com/blumenbach/collection-builder) is based on the [IIIF Presentation API](http://iiif.io/api/presentation/2.1/).
-* See [HOWTO](https://github.com/blumenbach/architecture/blob/master/data-model/HOWTO.md) for specifics.
+* See [Diagram](https://github.com/blumenbach/architecture/blob/master/data-model/data-model_v.0.2.png) for the class relationships
+* See [HOWTO](https://github.com/blumenbach/architecture/blob/master/data-model/HOWTO.md) for implementation specifics.
+* See [tei-to-rdf](https://github.com/blumenbach/tei-to-rdf) on prototype method for #LD transformation of TEI. 
 
 ## Event Model 
 The Event Model of the Web App layer provides realtime dynamic topology via:  
