@@ -17,12 +17,14 @@
     <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
     <Prefix name="ecrm" IRI="http://erlangen-crm.org/160331/"/>
     <Prefix name="exif" IRI="http://www.w3.org/2003/12/exif/ns#"/>
+    <Prefix name="foaf" IRI="http://xmlns.com/foaf/0.1/"/>
     <Prefix name="iiif" IRI="http://iiif.io/api/image/2#"/>
     <Prefix name="prov" IRI="http://www.w3.org/ns/prov#"/>
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="svcs" IRI="http://rdfs.org/sioc/services#"/>
     <Prefix name="dcterms" IRI="http://purl.org/dc/terms/"/>
     <Prefix name="dctypes" IRI="http://purl.org/dc/dcmitype/"/>
-    <Prefix name="blumenbach#" IRI="http://purl.org/vocab/blumenbach#"/>
+    <Prefix name="blume" IRI="http://purl.org/vocab/blumenbach#"/>
     <Declaration>
         <Class abbreviatedIRI="dctypes:Image"/>
     </Declaration>
@@ -72,6 +74,9 @@
         <Class abbreviatedIRI="ecrm:B18_Type_Artifact_RDF"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="http://vocab.getty.edu/ontology/"/>
+    </Declaration>
+    <Declaration>
         <Class abbreviatedIRI="ecrm:E12_Production"/>
     </Declaration>
     <Declaration>
@@ -112,6 +117,9 @@
     </Declaration>
     <Declaration>
         <ObjectProperty abbreviatedIRI="sc:hasCanvases"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://iiif.io/api/presentation/2/"/>
     </Declaration>
     <Declaration>
         <Class IRI="B01_Entity"/>
@@ -195,13 +203,13 @@
         <ObjectProperty abbreviatedIRI="dc:language"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual abbreviatedIRI="ecrm:"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty abbreviatedIRI="ecrm:P70_is_documented_in"/>
     </Declaration>
     <Declaration>
         <DataProperty abbreviatedIRI="ecrm:P3_has_note"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://iiif.io/api/presentation/2"/>
     </Declaration>
     <Declaration>
         <Class abbreviatedIRI="sc:AnnotationList"/>
@@ -267,6 +275,9 @@
         <ObjectProperty abbreviatedIRI="dcterms:isPartOf"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="http://www.tei-c.org/ns/1.0/"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="B07_TXT_RDF"/>
     </Declaration>
     <Declaration>
@@ -321,13 +332,7 @@
         <Class abbreviatedIRI="ecrm:E41_Appellation"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="http://www.tei-c.org/ns/1.0#"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="B09_Type_Objekt"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://vocab.getty.edu/ontology#"/>
     </Declaration>
     <Declaration>
         <ObjectProperty abbreviatedIRI="ecrm:P53_has_former_or_current_location"/>
@@ -340,9 +345,6 @@
     </Declaration>
     <Declaration>
         <Class IRI="B03_EXIST_Resource"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual abbreviatedIRI="ecrm:CIDOC_CRM"/>
     </Declaration>
     <Declaration>
         <Class IRI="Artifact.Text.Number"/>
@@ -381,7 +383,7 @@
         <ObjectProperty abbreviatedIRI="oa:hasBody"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="http://xmlns.com/foaf/0.1/thumbnail"/>
+        <ObjectProperty abbreviatedIRI="foaf:thumbnail"/>
     </Declaration>
     <Declaration>
         <Class IRI="B02_DOR_Resource"/>
@@ -918,11 +920,11 @@
     </SubClassOf>
     <ClassAssertion>
         <Class abbreviatedIRI="ecrm:E32_Authority_Document"/>
-        <NamedIndividual abbreviatedIRI="ecrm:CIDOC_CRM"/>
+        <NamedIndividual abbreviatedIRI="ecrm:"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class abbreviatedIRI="ecrm:E32_Authority_Document"/>
-        <NamedIndividual IRI="http://iiif.io/api/presentation/2/IIIF_Presentation_API"/>
+        <NamedIndividual IRI="http://iiif.io/api/presentation/2/"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class abbreviatedIRI="ecrm:E40_Legal_Body"/>
@@ -946,11 +948,11 @@
     </ClassAssertion>
     <ClassAssertion>
         <Class abbreviatedIRI="ecrm:E32_Authority_Document"/>
-        <NamedIndividual IRI="http://vocab.getty.edu/ontology#Getty_Vocabulary_Program"/>
+        <NamedIndividual IRI="http://vocab.getty.edu/ontology/"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class abbreviatedIRI="ecrm:E32_Authority_Document"/>
-        <NamedIndividual IRI="http://www.tei-c.org/ns/1.0#TEI_Schema"/>
+        <NamedIndividual IRI="http://www.tei-c.org/ns/1.0/"/>
     </ClassAssertion>
     <SubObjectPropertyOf>
         <ObjectProperty abbreviatedIRI="sc:hasCollections"/>
@@ -1044,6 +1046,11 @@
         <DataProperty abbreviatedIRI="ecrm:P80_end_is_qualified_by"/>
         <DataProperty abbreviatedIRI="ecrm:P3_has_note"/>
     </SubDataPropertyOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>ecrm:</AbbreviatedIRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">CIDOC CRM</Literal>
+    </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <AbbreviatedIRI>ecrm:E19_Physical_Object</AbbreviatedIRI>
@@ -1241,6 +1248,11 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://iiif.io/api/presentation/2/</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">IIIF Presentation API</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <AbbreviatedIRI>dctypes:Image</AbbreviatedIRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">dctypes:Image</Literal>
     </AnnotationAssertion>
@@ -1266,8 +1278,18 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://rdfs.org/sioc/services#has_service</IRI>
+        <AbbreviatedIRI>svcs:has_service</AbbreviatedIRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">svcs:has_service</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://vocab.getty.edu/ontology/</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Getty Vocabulary Program</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.tei-c.org/ns/1.0/</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">TEI Schema</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
