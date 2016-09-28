@@ -3,7 +3,7 @@
 This repository contains documentation relating to the components of the Projekt Blumenbach Online 
 Digital Repository.
 
-See v.0.3 [diagram](https://github.com/blumenbach/architecture/blob/master/docs/architecture.png)
+See v.0.2.0 [diagram](https://github.com/blumenbach/architecture/blob/master/docs/pandora_0.2.0.png)
 
 Currently, these components are documented in the following repositories or locations:
 
@@ -21,7 +21,7 @@ Currently, these components are documented in the following repositories or loca
 * [Virtuoso](https://github.com/openlink/virtuoso-opensource)
 
 ## Middleware
-* [IIIF Manifest Service](https://github.com/blumenbach/iiif-manifest-service)
+* [IIIF Manifest Service](https://github.com/blumenbach/manifest-service)
 * [Redis](http://redis.io/topics/quickstart)
 * [Riak KV](https://github.com/basho/riak_kv)
 
