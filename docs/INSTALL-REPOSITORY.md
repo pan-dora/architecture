@@ -85,10 +85,14 @@ login: karaf pw: karaf
 
 Configure Karaf in /srv/karaf/etc:  
 
+* org.fcrepo.camel.service.cfg 
+    \# The baseUrl for the fedora repository.
+fcrepo.baseUrl=http://reverse-proxy-name.org/fcrepo/rest
+
 * org.fcrepo.camel.indexing.triplestore.cfg  
     \# The base URL of the triplestore being used.
 Prerequisite: create dataset in Fuseki
-triplestore.baseUrl=reverse-proxy-name.org/fuseki/fcrepo/update  
+triplestore.baseUrl=http://reverse-proxy-name.org/fuseki/fcrepo/update  
 
 * org.fcrepo.camel.indexing.solr.cfg  
     \# The baseUrl for the Solr server.
