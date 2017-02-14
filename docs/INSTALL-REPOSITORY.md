@@ -34,7 +34,7 @@ Configure tomcat8 in /var/lib/tomcat8/conf
 ### FCREPO RC2 4.7.0
 Download war from https://github.com/fcrepo4/fcrepo4/releases/download/fcrepo-4.7.0-RC-2/fcrepo-webapp-4.7.0-RC-2.war
 create data directory (e.g. /mnt/fcrepo4-data)  
-create binary serialization directory (e.g. /mnt/fcrepo/binaries)  
+create binary serialization directory (e.g. /mnt/serialization/binaries)  
 assign dir permissions to tomcat8  
 
     $> cp fcrepo-*.war to /var/lib/tomcat8/webapps/fcrepo.war

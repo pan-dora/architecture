@@ -1,7 +1,6 @@
-# Projekt Blumenbach Online Architecture <img src="https://avatars0.githubusercontent.com/u/15832405?v=3&s=200" width="75" height="75" align="right" alt="" />
+# Pandora Framework Architecture <img src="https://avatars1.githubusercontent.com/u/25132340?v=3&s=200" height="75" align="right" alt="" />
 
-This repository contains documentation relating to the components of the Projekt Blumenbach Online 
-Digital Repository.
+This repository contains documentation relating to the components of the Linked Open Data Image Presentation and Annotation Framework.
 
 See v.0.2.0 [diagram](https://github.com/blumenbach/architecture/blob/master/docs/pandora_0.2.0.png)
 
@@ -12,16 +11,19 @@ Currently, these components are documented in the following repositories or loca
 * [Apache Karaf](https://github.com/apache/karaf)
 * [Apache Camel](http://camel.apache.org/karaf.html)
 * [Fedora Messaging](https://github.com/fcrepo4-exts/fcrepo-camel-toolbox)
-* [Apache Jena](https://github.com/apache/jena)
-* [eXist-db](https://github.com/eXist-db) 
+* [Apache Jena](https://github.com/apache/jena) 
 
 ## Service Layer
-* [Djatoka](https://github.com/blumenbach/freelib-djatoka) 
+* [iipsrv](https://github.com/ruven/iipsrv) 
+* [openJPEG](https://github.com/uclouvain/openjpeg)
 * [Solr](http://ftp.halifax.rwth-aachen.de/apache/lucene/solr/6.0.0/)
 * [Virtuoso](https://github.com/openlink/virtuoso-opensource)
+* [eXist-db](https://github.com/eXist-db)
+* [wikibase](https://github.com/wikimedia/mediawiki-extensions-Wikibase)
 
 ## Middleware
-* [IIIF Manifest Service](https://github.com/blumenbach/manifest-service)
+* [Pandora Manifest Service](https://github.com/pan-dora/manifest-service)
+* [Pandora Modeller](https://github.com/pan-dora/modeller)
 * [Redis](http://redis.io/topics/quickstart)
 * [Riak KV](https://github.com/basho/riak_kv)
 
